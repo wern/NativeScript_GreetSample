@@ -1,0 +1,13 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="onLoaded" class="page">
+
+    <Page.actionBar>
+        <ActionBar title="Gruss" icon="" class="action-bar" />
+    </Page.actionBar>
+
+    <StackLayout class="p-20 text-center">
+        <Label text="{{ 'Hallo ' + name + '!!!'}}" />
+        <Label text="{{ 'Dein Name r&#252;ckw&#228;rts: ' + reverse }}" />
+        <Image src="~/images/Beany.png" width="200px"></Image>
+        <Button text="zur&#252;ck" tap="goBack" class="btn btn-primary btn-active"/>
+    </StackLayout>
+</Page>

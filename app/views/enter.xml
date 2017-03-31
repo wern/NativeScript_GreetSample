@@ -1,0 +1,11 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="onLoaded" class="page">
+    <Page.actionBar>
+        <ActionBar title="Eingabe" icon="" class="action-bar" />
+    </Page.actionBar>
+
+    <StackLayout class="p-20 text-center">
+        <Label text="Wie heisst Du?" />
+        <TextField hint="Dein Name" text="{{ name }}" />
+        <Button text="weiter" tap="greet" class="btn btn-primary btn-active"/>
+    </StackLayout>
+</Page>
